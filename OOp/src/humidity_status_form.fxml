@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="646.0" prefWidth="1193.0" styleClass="backgroundColor" stylesheets="@newpane_Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumidityStatusFormController">
+<AnchorPane prefHeight="646.0" prefWidth="1193.0" styleClass="backgroundColor" stylesheets="@newpane_Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.HumidityStatusFormController">
    <children>
       <Text fill="WHITE" layoutX="103.0" layoutY="85.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text="Humidity Status">
          <font>

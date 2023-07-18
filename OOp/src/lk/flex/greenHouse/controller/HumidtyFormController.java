@@ -1,24 +1,24 @@
+package lk.flex.greenHouse.controller;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class TemparetureFormController implements Initializable {
+public class HumidtyFormController implements Initializable {
     public javafx.scene.control.Button homebtn;
-    public javafx.scene.control.Button humiditybtn;
+    public javafx.scene.control.Button tempeturebtn;
     public javafx.scene.control.Button watersuplybtn;
     public javafx.scene.control.Button sunlightbtn;
     public javafx.scene.control.Button settingbtn;
     public javafx.scene.control.Button employebtn;
-    public Button tempeturebtn;
-    public Text tempertext;
+    public Text humidityLvl;
 
     public void settingOnAction(ActionEvent actionEvent) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("humidity_settings_form.fxml"));
@@ -34,7 +34,7 @@ public class TemparetureFormController implements Initializable {
     }
 
     public void reportOnAction(ActionEvent actionEvent) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("temprature_status_form.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("humidity_status_form.fxml"));
         Parent root1 = null;
         try {
             root1 = (Parent) fxmlLoader.load();
@@ -52,9 +52,9 @@ public class TemparetureFormController implements Initializable {
         window.setScene(new Scene(fxmlLoader));
     }
 
-    public void humiditybtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("humidty_form.fxml"));
-        Stage window = (Stage)humiditybtn.getScene().getWindow();
+    public void tempeturebtnOnAction(ActionEvent actionEvent) throws IOException {
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("tempareture_form.fxml"));
+        Stage window = (Stage)tempeturebtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
 
@@ -71,9 +71,9 @@ public class TemparetureFormController implements Initializable {
     }
 
     public void settingsOnAction(ActionEvent actionEvent) throws IOException {
-        /*Parent fxmlLoader = FXMLLoader.load(getClass().getResource("humidty_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("humidty_form.fxml"));
         Stage window = (Stage)settingbtn.getScene().getWindow();
-        window.setScene(new Scene(fxmlLoader));*/
+        window.setScene(new Scene(fxmlLoader));
     }
 
     public void employebtnOnAction(ActionEvent actionEvent) throws IOException {
@@ -84,6 +84,6 @@ public class TemparetureFormController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        tempertext.setText(Main.secondword);
+        humidityLvl.setText(Main.firstword+"%");
     }
 }

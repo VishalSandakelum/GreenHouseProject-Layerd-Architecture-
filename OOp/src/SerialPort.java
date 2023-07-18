@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 import java.nio.charset.StandardCharsets;
 
 /*
-public class Main extends Application {
+public class lk.flex.greenHouse.controller.Main extends Application {
 
     private static final int BAUD_RATE = 9600;
     private static final int DATA_BITS = 8;

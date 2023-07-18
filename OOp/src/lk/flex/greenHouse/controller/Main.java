@@ -1,3 +1,5 @@
+package lk.flex.greenHouse.controller;
+
 import com.fazecast.jSerialComm.SerialPort;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

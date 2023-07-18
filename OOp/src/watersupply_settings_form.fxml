@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="643.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WatersupplySettingsFormController">
+<AnchorPane prefHeight="643.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.WatersupplySettingsFormController">
    <stylesheets>
       <URL value="@newpane_Style.css" />
       <URL value="@paneshdow_Style.css" />

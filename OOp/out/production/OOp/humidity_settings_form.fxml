@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="643.0" prefWidth="1187.0" styleClass="backgroundColor" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HumiditySettingsFormController">
+<AnchorPane prefHeight="643.0" prefWidth="1187.0" styleClass="backgroundColor" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.HumiditySettingsFormController">
    <children>
       <ImageView fitHeight="40.0" fitWidth="39.0" layoutX="93.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
          <image>

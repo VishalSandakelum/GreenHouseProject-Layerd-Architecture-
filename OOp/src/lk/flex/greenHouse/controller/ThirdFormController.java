@@ -1,3 +1,5 @@
+package lk.flex.greenHouse.controller;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -70,7 +72,7 @@ public class ThirdFormController implements Initializable {
                     timetext.setText(tme);
                     humidytext.setText(Main.firstword+"%");
                     temper.setText(Main.secondword);
-                    //soiltext.setText(Main.thirdword+"%");
+                    //soiltext.setText(lk.flex.greenHouse.controller.Main.thirdword+"%");
                     soiltext.setText(Math.abs(Integer.parseInt(Main.thirdword))+"%");
 
                 }
