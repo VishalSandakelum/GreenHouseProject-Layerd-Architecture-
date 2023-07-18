@@ -22,7 +22,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        URL resource = getClass().getResource("login_form.fxml");
+        URL resource = getClass().getResource("lk/flex/greenHouse/view/login_form.fxml");
         //URL resource = getClass().getResource("vidioeview_form.fxml");
         Parent parent = FXMLLoader.load(resource);
         Scene scene = new Scene(parent);
