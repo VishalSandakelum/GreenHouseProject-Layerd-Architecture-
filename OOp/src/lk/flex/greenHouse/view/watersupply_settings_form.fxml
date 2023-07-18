@@ -15,8 +15,8 @@
 
 <AnchorPane prefHeight="643.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.WatersupplySettingsFormController">
    <stylesheets>
-      <URL value="@../../../../newpane_Style.css" />
-      <URL value="@../../../../paneshdow_Style.css" />
+      <URL value="@../assests/css/newpane_Style.css" />
+      <URL value="@../assests/css/paneshdow_Style.css" />
    </stylesheets>
    <styleClass>
       <String fx:value="backgroundColor" />
@@ -33,11 +33,11 @@
             <Font name="System Bold" size="29.0" />
          </font>
       </Text>
-      <ScrollPane layoutX="84.0" layoutY="257.0" prefHeight="373.0" prefWidth="1019.0" styleClass="backgroundColor" stylesheets="@../../../../newpane_Style.css">
+      <ScrollPane layoutX="84.0" layoutY="257.0" prefHeight="373.0" prefWidth="1019.0" styleClass="backgroundColor" stylesheets="@../assests/css/newpane_Style.css">
          <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="552.0" prefWidth="1024.0" styleClass="backgroundColor" stylesheets="@../../../../newpane_Style.css">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="552.0" prefWidth="1024.0" styleClass="backgroundColor" stylesheets="@../assests/css/newpane_Style.css">
                <children>
-                  <Pane layoutX="63.0" layoutY="74.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../../../../paneshdow_Style.css">
+                  <Pane layoutX="63.0" layoutY="74.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../assests/css/paneshdow_Style.css">
                      <children>
                         <Text fill="#02c362" layoutX="76.0" layoutY="60.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="Set Time" wrappingWidth="152.6708984375">
                            <font>
@@ -50,29 +50,29 @@
                               <Font name="System Bold" size="22.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="thick" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="thick" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="335.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="494.0" layoutY="59.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text="to">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="682.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                      </children>
                   </Pane>
                   <Text fill="#f8f8f8" layoutX="69.0" layoutY="49.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="Sprin curse" wrappingWidth="152.6708984375">
@@ -90,7 +90,7 @@
                         <Font name="System Bold" size="21.0" />
                      </font>
                   </Button>
-                  <Pane layoutX="63.0" layoutY="186.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../../../../paneshdow_Style.css" visible="false">
+                  <Pane layoutX="63.0" layoutY="186.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../assests/css/paneshdow_Style.css" visible="false">
                      <children>
                         <Text fill="#02c362" layoutX="76.0" layoutY="60.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="Set Time" wrappingWidth="152.6708984375">
                            <font>
@@ -103,32 +103,32 @@
                               <Font name="System Bold" size="22.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="335.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="494.0" layoutY="59.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text="to">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="682.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                      </children>
                   </Pane>
-                  <Pane layoutX="63.0" layoutY="406.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../../../../paneshdow_Style.css" visible="false">
+                  <Pane layoutX="63.0" layoutY="406.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../assests/css/paneshdow_Style.css" visible="false">
                      <children>
                         <Text fill="#02c362" layoutX="76.0" layoutY="60.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="Set Time" wrappingWidth="152.6708984375">
                            <font>
@@ -141,32 +141,32 @@
                               <Font name="System Bold" size="22.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="335.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="494.0" layoutY="59.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text="to">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="682.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                      </children>
                   </Pane>
-                  <Pane layoutX="63.0" layoutY="293.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../../../../paneshdow_Style.css" visible="false">
+                  <Pane layoutX="63.0" layoutY="293.0" opacity="0.86" prefHeight="81.0" prefWidth="846.0" style="-fx-background-color: white; -fx-background-radius: 15;" styleClass="pane" stylesheets="@../assests/css/paneshdow_Style.css" visible="false">
                      <children>
                         <Text fill="#02c362" layoutX="76.0" layoutY="60.0" opacity="0.96" strokeType="OUTSIDE" strokeWidth="0.0" text="Set Time" wrappingWidth="152.6708984375">
                            <font>
@@ -179,29 +179,29 @@
                               <Font name="System Bold" size="22.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="203.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="267.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="335.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="360.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="424.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="494.0" layoutY="59.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text="to">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="550.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="614.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                         <Text disable="true" fill="#000a04" layoutX="682.0" layoutY="60.0" opacity="0.91" strokeType="OUTSIDE" strokeWidth="0.0" text=":">
                            <font>
                               <Font name="System Bold" size="49.0" />
                            </font>
                         </Text>
-                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
-                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../../../../humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="707.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
+                        <TextField layoutX="771.0" layoutY="26.0" opacity="0.86" prefHeight="46.0" prefWidth="52.0" style="-fx-background-radius: 15;" styleClass="text-field" stylesheets="@../assests/css/humiditysettings_panetext_Style.css" />
                      </children>
                   </Pane>
                </children>

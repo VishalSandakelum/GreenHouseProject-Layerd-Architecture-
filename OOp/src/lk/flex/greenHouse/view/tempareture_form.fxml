@@ -20,15 +20,15 @@
 
 <AnchorPane prefHeight="646.0" prefWidth="1193.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.TemparetureFormController">
    <stylesheets>
-      <URL value="@../../../../newpane_Style.css" />
-      <URL value="@../../../../paneshdow_Style.css" />
+      <URL value="@../assests/css/newpane_Style.css" />
+      <URL value="@../assests/css/paneshdow_Style.css" />
    </stylesheets>
    <styleClass>
       <String fx:value="backgroundColor" />
       <String fx:value="pane" />
    </styleClass>
    <children>
-      <LineChart layoutX="137.0" layoutY="382.0" prefHeight="285.0" prefWidth="960.0" style="-fx-background-color: transparent;" styleClass="chart-plot-background" stylesheets="@../../../../chartBackground_transparent_Style.css">
+      <LineChart layoutX="137.0" layoutY="382.0" prefHeight="285.0" prefWidth="960.0" style="-fx-background-color: transparent;" styleClass="chart-plot-background" stylesheets="@../assests/css/chartBackground_transparent_Style.css">
          <xAxis>
             <CategoryAxis side="BOTTOM" />
          </xAxis>
@@ -62,7 +62,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <RadioButton layoutX="1079.0" layoutY="48.0" mnemonicParsing="false" styleClass="#my-radio" stylesheets="@../../../../shadowfourpane_Style.css" text="online">
+      <RadioButton layoutX="1079.0" layoutY="48.0" mnemonicParsing="false" styleClass="#my-radio" stylesheets="@../assests/css/shadowfourpane_Style.css" text="online">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -94,8 +94,8 @@
             <String fx:value="pane" />
          </styleClass>
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../newpane_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/newpane_Style.css" />
          </stylesheets>
          <children>
             <ImageView fitHeight="49.0" fitWidth="64.0" layoutX="23.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
@@ -163,7 +163,7 @@
       </Pane>
       <ImageView fitHeight="206.0" fitWidth="349.0" layoutX="187.0" layoutY="160.0" pickOnBounds="true">
          <image>
-            <Image url="@../../../../imgthird/pic/Rectangle9_new_teamicon.png" />
+            <Image url="@../assests/css/imgs/pic/Rectangle9_new_teamicon.png" />
          </image>
       </ImageView>
       <Pane layoutX="208.0" layoutY="181.0" prefHeight="165.0" prefWidth="307.0" style="-fx-background-color: white; -fx-background-radius: 10;" styleClass="pane2">

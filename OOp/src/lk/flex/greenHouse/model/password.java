@@ -1,4 +1,4 @@
-package model;
+package lk.flex.greenHouse.model;
 
 public class password {
     private String username;

@@ -1,6 +1,6 @@
-package db;
+package lk.flex.greenHouse.db;
 
-import model.password;
+import lk.flex.greenHouse.model.password;
 
 import java.util.ArrayList;
 

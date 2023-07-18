@@ -13,9 +13,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="646.0" prefWidth="1193.0" style="-fx-border-color: black;" styleClass="backgroundColor" stylesheets="@../../../../Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.ThirdFormController">
+<AnchorPane prefHeight="646.0" prefWidth="1193.0" style="-fx-border-color: black;" styleClass="backgroundColor" stylesheets="@../assests/css/Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.ThirdFormController">
    <children>
-      <Pane layoutX="98.0" prefHeight="125.0" prefWidth="1094.0" styleClass="backgroundColor" stylesheets="@../../../../Style.css">
+      <Pane layoutX="98.0" prefHeight="125.0" prefWidth="1094.0" styleClass="backgroundColor" stylesheets="@../assests/css/Style.css">
          <children>
             <ImageView fitHeight="93.0" fitWidth="1094.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -96,9 +96,9 @@
       </Pane>
       <Pane layoutX="162.0" layoutY="170.0" prefHeight="187.0" prefWidth="357.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../thirdform_paneshadow_Style.css" />
-            <URL value="@../../../../thirdform_paneFour_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/thirdform_paneshadow_Style.css" />
+            <URL value="@../assests/css/thirdform_paneFour_Style.css" />
          </stylesheets>
          <children>
             <Text fill="#12cd5d" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Humidity" wrappingWidth="147.6708984375">
@@ -124,8 +124,8 @@
       </Pane>
       <Pane layoutX="162.0" layoutY="411.0" prefHeight="187.0" prefWidth="357.0" style="-fx-background-color: white; -fx-background-radius: 20;" styleClass="pane">
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../thirdform_paneshadow_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/thirdform_paneshadow_Style.css" />
          </stylesheets>
          <children>
             <Text fill="#12cd5d" layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water Supply" wrappingWidth="147.6708984375">
@@ -147,8 +147,8 @@
       </Pane>
       <Pane layoutX="695.0" layoutY="411.0" prefHeight="187.0" prefWidth="357.0" style="-fx-background-color: white; -fx-background-radius: 20;" styleClass="pane">
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../thirdform_paneshadow_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/thirdform_paneshadow_Style.css" />
          </stylesheets>
          <children>
             <Text fill="#12cd5d" layoutX="31.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soil Moisture" wrappingWidth="147.6708984375">
@@ -168,20 +168,20 @@
             </Text>
             <ImageView fx:id="raincloud" fitHeight="194.0" fitWidth="187.0" layoutX="189.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true" visible="false">
                <image>
-                  <Image url="@../../../../imgthird/pic/raincpoudte_1nikan_newicon.png" />
+                  <Image url="@../assests/css/imgs/pic/raincpoudte_1nikan_newicon.png" />
                </image>
             </ImageView>
             <ImageView fx:id="sunlightnew" fitHeight="89.0" fitWidth="112.0" layoutX="227.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" visible="false">
                <image>
-                  <Image url="@../../../../imgthird/pic/sunlightnew_1new_teamicon.jpg" />
+                  <Image url="@../assests/css/imgs/pic/sunlightnew_1new_teamicon.jpg" />
                </image>
             </ImageView>
          </children>
       </Pane>
       <Pane layoutX="695.0" layoutY="170.0" prefHeight="187.0" prefWidth="357.0" style="-fx-background-color: white; -fx-background-radius: 20;" styleClass="pane">
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../thirdform_paneshadow_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/thirdform_paneshadow_Style.css" />
          </stylesheets>
          <children>
             <Text fill="#12cd5d" layoutX="25.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature" wrappingWidth="147.6708984375">
@@ -217,8 +217,8 @@
             <String fx:value="pane" />
          </styleClass>
          <stylesheets>
-            <URL value="@../../../../paneshdow_Style.css" />
-            <URL value="@../../../../newpane_Style.css" />
+            <URL value="@../assests/css/paneshdow_Style.css" />
+            <URL value="@../assests/css/newpane_Style.css" />
          </stylesheets>
          <children>
             <ImageView fitHeight="49.0" fitWidth="64.0" layoutX="23.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
