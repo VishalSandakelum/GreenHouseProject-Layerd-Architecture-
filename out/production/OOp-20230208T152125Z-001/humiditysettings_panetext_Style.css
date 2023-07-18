@@ -1,0 +1,14 @@
+.text-field{
+    -fx-font-family: "BoldItalic";
+    -fx-font-size: 20;
+    -fx-padding: 1,1,1,1;
+    -fx-border-color: #009d22;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-border: gone;
+    -fx-background-color:  #95f2b8;
+    -fx-text-fill: black;
+}
+p.thick {
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.table-row-cell #column_2 {
+    -fx-opacity: 60%;
+}
+
+.table-row-cell {
+    -fx-border-color: transparent transparent blue transparent;
+}
+#column_2 {
+    -fx-opacity: 60%
+}
+.table-cell {
+    -fx-border-color: transparent transparent blue transparent;
+    -fx-opacity: 100%;
+}

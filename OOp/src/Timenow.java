@@ -1,0 +1,3 @@
+interface  Timenow {
+    void time();
+}

@@ -1,0 +1,53 @@
+/*
+#startStopButton {
+    -fx-border-color:#d4d4d4;
+    -fx-background-color:#85eca5;
+    -fx-background-size: 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 80% 50%;
+    -fx-alignment: CENTER_LEFT;
+    -fx-effect: dropshadow(three-pass-box, #e7e7e7, 15, 0, 0, 0);
+}
+
+#startStopButton:hover {
+    -fx-background-color:#80dc9c;
+}
+
+
+#startStopButton:selected{
+    -fx-background-color: #ff6060;
+    -fx-text:"STOP";
+}
+#startStopButton:selected:focused{
+    -fx-background-color: #ff6060;
+    -fx-text:"STOP";
+}
+.start-stop.toggle-button {
+    base-color: #85eca5;
+    -fx-background-color: base-color;
+}
+
+.start-stop.toggle-button:selected {
+    base-color: #ff6060;
+}
+
+.start-stop.toggle-button:hover {
+    -fx-background-color: derive(base-color, -20%);
+}
+.start-stop.toggle-button {
+    unselected-color: blue;
+    selected-color: yellow;
+
+    -fx-background-color: unselected-color;
+}
+
+.start-stop.toggle-button:hover {
+    unselected-color: red;
+    selected-color: green;
+}
+
+.start-stop.toggle-button:selected {
+    -fx-background-color: selected-color;
+}
+*/
+

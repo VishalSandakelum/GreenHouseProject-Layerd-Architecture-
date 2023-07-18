@@ -1,0 +1,19 @@
+
+/*.button:focused {*/
+/*    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;*/
+/*    -fx-background-insets: 0, 1, 2;*/
+/*    -fx-background-radius: 5, 4, 3;*/
+/*}*/
+
+#humiditybtn:hover {
+    -fx-max-width: 5;
+    -fx-max-height: 5;
+    -fx-background-color: red;
+}
+
+
+.humiditybtn:hover {
+    -fx-max-width: 5;
+    -fx-max-height: 5;
+    -fx-background-color: red;
+}

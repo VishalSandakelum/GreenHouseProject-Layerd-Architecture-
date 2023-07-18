@@ -1,0 +1,11 @@
+.text-field{
+    -fx-font-family: "Bold";
+    -fx-font-size: 18;
+    -fx-padding: 1,1,1,1;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-border: gone;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}

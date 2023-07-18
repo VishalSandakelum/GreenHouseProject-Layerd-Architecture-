@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="646.0" prefWidth="1193.0" styleClass="backgroundColor" stylesheets="@newpane_Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClimatestatusFormController">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="127.0" layoutX="147.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgthird/pic/sunlight%20team%20icon.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="185.0" layoutY="135.0" opacity="0.79" strokeType="OUTSIDE" strokeWidth="0.0" text="Climate Status">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <TableView layoutX="154.0" layoutY="172.0" opacity="0.99" prefHeight="445.0" prefWidth="968.0" stylesheets="@table_style.css">
+         <columns>
+            <TableColumn prefWidth="306.0" text="DATE" />
+            <TableColumn minWidth="0.0" prefWidth="330.0" text="TIME" />
+            <TableColumn minWidth="0.0" prefWidth="330.0" text="Climate" />
+         </columns>
+         <styleClass>
+            <String fx:value="table-row-cell" />
+            <String fx:value="backgroundColor" />
+         </styleClass>
+      </TableView>
+      <Button fx:id="dalybtn" layoutX="741.0" layoutY="47.0" mnemonicParsing="false" onAction="#dalybtnOnAction" opacity="0.92" prefHeight="46.0" prefWidth="135.0" style="-fx-background-color: #BEFFC7; -fx-background-radius: 15;" text="DAILY" textFill="#14b126">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="monthlybtn" layoutX="1044.0" layoutY="47.0" mnemonicParsing="false" onAction="#monthlybtnOnAction" opacity="0.92" prefHeight="46.0" prefWidth="135.0" style="-fx-background-color: #BEFFC7; -fx-background-radius: 15;" text="MONTHLY" textFill="#14b126">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="weeklybtn" layoutX="894.0" layoutY="47.0" mnemonicParsing="false" onAction="#weeklybtnOnAction" opacity="0.92" prefHeight="46.0" prefWidth="135.0" style="-fx-background-color: #BEFFC7; -fx-background-radius: 15;" text="WEEKLY" textFill="#14b126">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane prefHeight="671.0" prefWidth="98.0">
+         <styleClass>
+            <String fx:value="backgroundColor" />
+            <String fx:value="pane" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@paneshdow_Style.css" />
+            <URL value="@newpane_Style.css" />
+         </stylesheets>
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="64.0" layoutX="23.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgthird/pic/team%20icon%20_home_.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="homebtn" layoutX="16.0" layoutY="86.0" mnemonicParsing="false" onAction="#homebtnOnAction" opacity="0.0" prefHeight="62.0" prefWidth="64.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="95.0" fitWidth="82.0" layoutX="-6.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgthird/pic/humidity%20team%20icon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="humiditybtn" layoutX="19.0" layoutY="163.0" mnemonicParsing="false" onAction="#humiditybtnOnAction" opacity="0.0" prefHeight="53.0" prefWidth="64.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="62.0" fitWidth="59.0" layoutX="18.0" layoutY="242.0">
+               <image>
+                  <Image url="@imgthird/pic/temperature%20icon1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="tempeturebtn" layoutX="16.0" layoutY="234.0" mnemonicParsing="false" onAction="#tempeturebtnOnAction" opacity="0.0" prefHeight="73.0" prefWidth="64.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView layoutX="22.0" layoutY="308.0">
+               <image>
+                  <Image url="@imgthird/pic/water%20level%20icon1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="watersuplybtn" layoutX="18.0" layoutY="311.0" mnemonicParsing="false" onAction="#watersuplybtnOnAction" opacity="0.0" prefHeight="60.0" prefWidth="64.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="15.0" layoutY="386.0" opacity="0.28" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+            <ImageView fitHeight="74.0" fitWidth="117.0" layoutX="4.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgthird/pic/sunlight%20team%20icon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="sunlightbtn" layoutX="19.0" layoutY="396.0" mnemonicParsing="false" onAction="#sunlightbtnOnAction" opacity="0.0" prefHeight="49.0" prefWidth="64.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="52.0" fitWidth="54.0" layoutX="22.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgthird/pic/setting%20team%20icon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="settingbtn" layoutX="18.0" layoutY="469.0" mnemonicParsing="false" onAction="#settingbtnOnAction" opacity="0.0" prefHeight="49.0" prefWidth="59.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="73.0" fitWidth="64.0" layoutX="16.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgthird/pic/labour%20profile%20team%20icon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="employebtn1" layoutX="11.0" layoutY="552.0" mnemonicParsing="false" onAction="#employebtnOnAction" opacity="0.0" prefHeight="73.0" prefWidth="74.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
