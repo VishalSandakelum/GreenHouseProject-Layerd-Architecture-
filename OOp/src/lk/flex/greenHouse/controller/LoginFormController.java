@@ -31,7 +31,7 @@ public class LoginFormController  {
     
 
     public void btnbutton2onaction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("humidty_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/login_form.fxml"));
         Stage window = (Stage)Button1.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
 
@@ -39,7 +39,7 @@ public class LoginFormController  {
 
 
     public void btnButton1onaction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("password_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/password_form.fxml"));
         Stage window = (Stage)Button1.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }

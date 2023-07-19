@@ -1,6 +1,5 @@
 package lk.flex.greenHouse.controller;
 
-import com.mysql.cj.protocol.Resultset;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -107,7 +106,7 @@ public class PasswordFormController implements Initializable {
                 }
 
                     if (sqlusername.equals(usernametxt.getText()) || sqlpassword.equals(passwordtxt.getText())) {
-                        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("third_form.fxml"));
+                        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/third_form.fxml"));
                         Stage window = (Stage) signinbtn.getScene().getWindow();
                         window.setScene(new Scene(fxmlLoader, 1193, 666));
                     } else {
@@ -115,7 +114,7 @@ public class PasswordFormController implements Initializable {
                             if (i != 4) {
                                 System.out.println(num);
                                 System.out.println("Manager");
-                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("loginwaring_form.fxml"));
+                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/loginwaring_form.fxml"));
                                 Parent root1 = null;
                                 try {
                                     root1 = (Parent) fxmlLoader.load();
@@ -128,7 +127,7 @@ public class PasswordFormController implements Initializable {
                                 stage.show();
                             } else {
                                 System.out.println("Disable mode");
-                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("warinngmassage2_form.fxml"));
+                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/warinngmassage2_form.fxml"));
                                 Parent root1 = null;
                                 try {
                                     root1 = (Parent) fxmlLoader.load();

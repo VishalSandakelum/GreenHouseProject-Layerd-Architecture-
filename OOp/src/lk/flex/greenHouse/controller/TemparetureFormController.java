@@ -23,7 +23,7 @@ public class TemparetureFormController implements Initializable {
     public Text tempertext;
 
     public void settingOnAction(ActionEvent actionEvent) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("humidity_settings_form.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/humidity_settings_form.fxml"));
         Parent root1 = null;
         try {
             root1 = (Parent) fxmlLoader.load();
@@ -36,7 +36,7 @@ public class TemparetureFormController implements Initializable {
     }
 
     public void reportOnAction(ActionEvent actionEvent) {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("temprature_status_form.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/temprature_status_form.fxml"));
         Parent root1 = null;
         try {
             root1 = (Parent) fxmlLoader.load();
@@ -49,25 +49,25 @@ public class TemparetureFormController implements Initializable {
     }
 
     public void homebtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("third_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/third_form.fxml"));
         Stage window = (Stage)homebtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
 
     public void humiditybtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("humidty_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/humidty_form.fxml"));
         Stage window = (Stage)humiditybtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
 
     public void watersuplybtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("waterSpply_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/waterSpply_form.fxml"));
         Stage window = (Stage)watersuplybtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
 
     public void sunlightbtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("climatestatus_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/climatestatus_form.fxml"));
         Stage window = (Stage)sunlightbtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
@@ -79,7 +79,7 @@ public class TemparetureFormController implements Initializable {
     }
 
     public void employebtnOnAction(ActionEvent actionEvent) throws IOException {
-        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("logout_form.fxml"));
+        Parent fxmlLoader = FXMLLoader.load(getClass().getResource("/lk/flex/greenHouse/view/logout_form.fxml"));
         Stage window = (Stage)employebtn.getScene().getWindow();
         window.setScene(new Scene(fxmlLoader));
     }
