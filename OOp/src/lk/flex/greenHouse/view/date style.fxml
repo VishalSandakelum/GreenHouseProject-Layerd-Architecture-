@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="DateStyle"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="227.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.flex.greenHouse.controller.DateStyle">
+   <children>
+      <AnchorPane prefHeight="233.0" prefWidth="554.0" styleClass="backgroundColor" stylesheets="@../assests/css/newpane_Style.css">
+         <children>
+            <Text layoutX="185.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Failed">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Text>
+            <Text layoutX="71.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You try to enter wrong passsword and user name.">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="209.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In few moments.">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Line endX="522.0" layoutX="31.0" layoutY="199.0" startX="-100.0" />
+            <Text fill="RED" layoutX="216.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wait a few minute !">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

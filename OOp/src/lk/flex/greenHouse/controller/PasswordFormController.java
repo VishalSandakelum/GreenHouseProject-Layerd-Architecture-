@@ -127,7 +127,7 @@ public class PasswordFormController implements Initializable {
                                 stage.show();
                             } else {
                                 System.out.println("Disable mode");
-                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/warinngmassage2_form.fxml"));
+                                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/lk/flex/greenHouse/view/date style.fxml"));
                                 Parent root1 = null;
                                 try {
                                     root1 = (Parent) fxmlLoader.load();
